@@ -1,0 +1,22 @@
+{
+  "name": "@fa-bot/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/fa-bot-utils.cjs.js",
+  "module": "dist/fa-bot-utils.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootbot": "^1.1.0",
+    "prettier": "^2.4.0"
+  },
+  "devDependencies": {
+    "bootbot": "^1.1.0",
+    "prettier": "^2.4.0"
+  }
+}
