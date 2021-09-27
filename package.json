@@ -1,0 +1,34 @@
+{
+  "name": "fa-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "preconstruct dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:welness": "lerna run dev --scope @fa-bot/welness --stream"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.15.0",
+    "@preconstruct/cli": "^2.1.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.6"
+  },
+  "preconstruct": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

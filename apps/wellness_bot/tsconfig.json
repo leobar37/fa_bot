@@ -1,0 +1,25 @@
+{
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "CommonJS",
+    "noEmit": false,
+    "outDir": "dist",
+    "rootDir": "src",
+    "allowJs": false,
+    "target": "esnext",
+    "isolatedModules": false,
+    "esModuleInterop": true,
+    "strict": false,
+    "noUnusedLocals" : false,
+    "noUnusedParameters" : false
+  },
+  "exclude": [
+    "node_modules",
+    "docs",
+    "resources"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ]
+}
