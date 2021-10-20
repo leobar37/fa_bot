@@ -2,10 +2,10 @@ import { ATTACHMENT_TYPE } from '../../enums';
 import { AttachmentPayload } from '../../client/Client';
 import { AttachmentButtonBuilder } from '../../builders/buttons';
 
-export class AttachmentButtonPayload implements AttachmentPayload{
+export class AttachmentButtonPayload implements AttachmentPayload {
   readonly type: ATTACHMENT_TYPE;
-  readonly payload:any  = {
-    template_type: 'button',
+  readonly payload: any = {
+    template_type: 'button'
   };
 
   public constructor(builder: AttachmentButtonBuilder) {

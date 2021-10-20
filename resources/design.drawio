@@ -1,0 +1,61 @@
+<mxfile host="65bd71144e">
+    <diagram id="Ln3odG2Rv1ASaC_pK-n9" name="Page-1">
+        <mxGraphModel dx="730" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Core" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="190" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="da-bot" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="240" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Concrete bot" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="120" width="120" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="LACWr3XqlhWx0_yVa8mb" name="flow bot">
+        <mxGraphModel dx="730" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="NcPJpx6lmUxXl8WCpsyE-0"/>
+                <mxCell id="NcPJpx6lmUxXl8WCpsyE-1" parent="NcPJpx6lmUxXl8WCpsyE-0"/>
+                <mxCell id="NcPJpx6lmUxXl8WCpsyE-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NcPJpx6lmUxXl8WCpsyE-1" source="NcPJpx6lmUxXl8WCpsyE-4" target="NcPJpx6lmUxXl8WCpsyE-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="NcPJpx6lmUxXl8WCpsyE-4" value="Usuario envia un mensaje" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NcPJpx6lmUxXl8WCpsyE-1">
+                    <mxGeometry x="90" y="110" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="NcPJpx6lmUxXl8WCpsyE-7" value="Bot responde con la respuesta apropiada" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NcPJpx6lmUxXl8WCpsyE-1">
+                    <mxGeometry x="414" y="120" width="221" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="NcPJpx6lmUxXl8WCpsyE-11" value="Trigger" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NcPJpx6lmUxXl8WCpsyE-1">
+                    <mxGeometry x="80" y="290" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="RmoH2hf4Ezuim5HSkbeZ" name="disparador">
+        <mxGraphModel dx="730" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="lqJbGYzHhCsbiJqGZZCZ-0"/>
+                <mxCell id="lqJbGYzHhCsbiJqGZZCZ-1" parent="lqJbGYzHhCsbiJqGZZCZ-0"/>
+                <mxCell id="lqJbGYzHhCsbiJqGZZCZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lqJbGYzHhCsbiJqGZZCZ-1" source="lqJbGYzHhCsbiJqGZZCZ-2" target="lqJbGYzHhCsbiJqGZZCZ-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="lqJbGYzHhCsbiJqGZZCZ-2" value="Usuario : hola" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lqJbGYzHhCsbiJqGZZCZ-1">
+                    <mxGeometry x="70" y="170" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="lqJbGYzHhCsbiJqGZZCZ-3" value="Disparador de keyword es activado" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="lqJbGYzHhCsbiJqGZZCZ-1">
+                    <mxGeometry x="320" y="200" width="150" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
